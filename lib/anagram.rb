@@ -10,6 +10,7 @@ class Anagram
   def match(word_list)
     
     word_list.select{|word|
+      #join
       @word.chars.sort == word.chars.sort
     }
   end
